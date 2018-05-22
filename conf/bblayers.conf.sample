@@ -9,10 +9,6 @@ BBLAYERS ?= " \
   ##OEROOT##/meta \
   ##OEROOT##/meta-yocto \
   ##OEROOT##/meta-yocto-bsp \
-  ##OEROOT##/../meta-raspberrypi \
-  ##OEROOT##/../meta-updater \
-  ##OEROOT##/../meta-openembedded/meta-oe \
-  ##OEROOT##/../meta-openembedded/meta-filesystems \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
   ##OEROOT##/meta \
