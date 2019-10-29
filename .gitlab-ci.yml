@@ -53,5 +53,6 @@ Oe-selftest minnowboard:
   variables:
     TEST_BUILD_DIR: 'build-oe-minnowboard'
     OE_SELFTESTS: 'updater_minnowboard'
+    TEST_MACHINE: 'intel-corei7-64'
   except:
     - pushes
