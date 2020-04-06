@@ -30,7 +30,7 @@ Checkout:
 
   stage: checkout
   variables:
-    MANIFEST: master
+    MANIFEST: dunfell
     CURRENT_PROJECT: meta-updater-minnowboard
   except:
     - pushes
